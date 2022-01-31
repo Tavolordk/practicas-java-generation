@@ -7,6 +7,7 @@ public class Descuento {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ingrese total de su cuenta.");
 		float numero = sc.nextFloat();
+		/*Ciclo de trabajo*/
 		if(numero>=0&&numero<1000){
 			System.out.println("El descuento no es válido.");}
 			else if(numero<=4999 && numero>=1000){
