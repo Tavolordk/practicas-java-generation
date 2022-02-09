@@ -1,10 +1,68 @@
 package com.generation;
 
-public class Tacos {
-	String tipoDeTortilla="";
-	String tipoDeGuisado="";
-	int numeroDeTortilla=0;
-	String tamanioDeTortilla="";
+public class Tacos  {
+	private String tipoDeTortilla="";
+	private String tipoDeGuisado="";
+	private int numeroDeTortilla=0;
+	private String tamanioDeTortilla="";
+	public String getTipoDeTortilla() {
+		return tipoDeTortilla;
+	}
+
+
+
+	public void setTipoDeTortilla(String tipoDeTortilla) {
+		this.tipoDeTortilla = tipoDeTortilla;
+	}
+
+
+
+	public String getTipoDeGuisado() {
+		return tipoDeGuisado;
+	}
+
+
+
+	public void setTipoDeGuisado(String tipoDeGuisado) {
+		this.tipoDeGuisado = tipoDeGuisado;
+	}
+
+
+
+	public int getNumeroDeTortilla() {
+		return numeroDeTortilla;
+	}
+
+
+
+	public void setNumeroDeTortilla(int numeroDeTortilla) {
+		this.numeroDeTortilla = numeroDeTortilla;
+	}
+
+
+
+	public String getTamanioDeTortilla() {
+		return tamanioDeTortilla;
+	}
+
+
+
+	public void setTamanioDeTortilla(String tamanioDeTortilla) {
+		this.tamanioDeTortilla = tamanioDeTortilla;
+	}
+
+
+
+	public float getPrecio() {
+		return precio;
+	}
+
+
+
+	public void setPrecio(float precio) {
+		this.precio = precio;
+	}
+
 	float precio=0.0f;
 	
 	public Tacos() {
